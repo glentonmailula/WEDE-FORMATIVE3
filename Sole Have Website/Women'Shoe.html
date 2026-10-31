@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sole Haven - Women's Shoes</title>
+    <link rel="stylesheet" href="CSS/styles1.css">
+    <script src="JavaScript/script.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+            color: #222222;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #111111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h2 {
+            color: #d4af37;
+            margin-bottom: 15px;
+        }
+
+        /* NAVIGATION */
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        /* SHOES SECTION */
+        .shoes {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .shoes h1 {
+            font-size: 40px;
+            color: #111111;
+            margin-bottom: 15px;
+        }
+
+        .shoes h1 span {
+            color: #d4af37;
+        }
+
+        .shoes > p {
+            color: #555555;
+            margin-bottom: 40px;
+        }
+
+        /* PRODUCTS */
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        /* PRODUCT CARD */
+        .product {
+            background-color: #f8f8f8;
+            padding: 20px;
+            width: 250px;
+            border-radius: 8px;
+            border-top: 5px solid #d4af37;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            color: #111111;
+            margin: 15px 0 8px;
+        }
+
+        .product p {
+            color: #555555;
+        }
+
+        /* PRICE */
+        .price {
+            font-weight: bold;
+            font-size: 18px;
+            color: #111111 !important;
+        }
+
+        /* ADD TO CART */
+        .cart-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #111111;
+            color: #ffffff;
+            text-decoration: none;
+            border: 2px solid #d4af37;
+            border-radius: 5px;
+        }
+
+        .cart-button:hover {
+            background-color: #d4af37;
+            color: #111111;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #111111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h2>Sole Haven</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Men'Shoes.html">Men</a>
+            <a href="Women'Shoe.html">Women</a>
+            <a href="shopping cart.html">Cart</a>
+            <a href="contact.html">Contact</a>
+            <a href="shop.html">Shop</a>
+        </nav>
+
+    </header>
+
+
+    <!-- WOMEN'S SHOES -->
+    <section class="shoes">
+
+        <h1>Women's <span>Shoes</span></h1>
+
+        <p>
+            Find stylish, comfortable and affordable footwear
+            for every occasion at Sole Haven.
+        </p>
+
+
+        <div class="products">
+
+
+            <!-- PRODUCT 1 -->
+            <div class="product">
+
+                <img src="image/women1.webp" alt="Classic Women's Sneaker">
+
+                <h3>Classic Sneaker</h3>
+
+                <p>
+                    Comfortable everyday sneakers designed
+                    for casual wear.
+                </p>
+
+                <p class="price">
+                    R899
+                </p>
+
+                <a href="cart.html" class="cart-button">
+                    Add to Cart
+                </a>
+
+            </div>
+
+
+            <!-- PRODUCT 2 -->
+            <div class="product">
+
+                <img src="image/women2.jpg" alt="Women's Casual Shoe">
+
+                <h3>Casual Shoe</h3>
+
+                <p>
+                    A simple and stylish choice for everyday
+                    activities.
+                </p>
+
+                <p class="price">
+                    R799
+                </p>
+
+                <a href="cart.html" class="cart-button">
+                    Add to Cart
+                </a>
+
+            </div>
+
+
+            <!-- PRODUCT 3 -->
+            <div class="product">
+
+                <img src="image/women3.jpeg" alt="Women's Elegant Shoe">
+
+                <h3>Elegant Shoe</h3>
+
+                <p>
+                    A fashionable option for special occasions
+                    and smart outfits.
+                </p>
+
+                <p class="price">
+                    R999
+                </p>
+
+                <a href="cart.html" class="cart-button">
+                    Add to Cart
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Sole Haven Shoes. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
